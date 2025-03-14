@@ -1,0 +1,50 @@
+.fotos{
+    display: flex;                   
+    align-items: center;             
+    padding: 20px;                    
+    box-sizing: border-box;           
+    gap: 70px;
+  }
+
+
+.Personajes{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    
+}
+
+h1{
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    text-align: left;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio div{
+    flex: 1;
+    padding: 20;
+    background-color: darkred;
+    
+}
+body{
+    background-color: dimgray;
+}
