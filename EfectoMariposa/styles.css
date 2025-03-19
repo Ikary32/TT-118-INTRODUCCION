@@ -58,9 +58,9 @@ body{
     width: 200px;
     height: 200px;
     object-fit: cover;
-    transition: transform 0.3s ease; /* Transición suave */
+    transition: transform 0.3s ease; 
 }
 
 .zoom-image:hover {
-    transform: scale(1.5); /* Zoom al pasar el cursor */
+    transform: scale(1.5);
 }

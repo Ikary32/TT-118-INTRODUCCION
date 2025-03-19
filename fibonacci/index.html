@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generador de Secuencia de Fibonacci</h1>
+    
+    <label for="numero">Ingrese el número de términos de Fibonacci: </label>
+</br>
+    <input type="number" id="numero" min="1">
+    <button onclick="mostrarResultado()">Generar Fibonacci</button>
+
+    <p id="resultado"></p>
+    <div id="gif-container" style="display: none;">
+        <img id="gif" src="fibonacci.gif" alt="Fibonacci GIF" />
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
