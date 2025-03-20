@@ -5,11 +5,14 @@ function generarNumeros() {
         let resultado = '';
 
         if (i % 3 === 0 && i % 5 === 0) {
-            resultado = 'FizzBuzz';  
+            resultado = 'FizzBuzz';
+            li.classList.add('fizzbuzz');  
         } else if (i % 3 === 0) {
             resultado = 'Fizz';  
+            li.classList.add('fizz')
         } else if (i % 5 === 0) {
             resultado = 'Buzz';  
+            li.classList.add('buzz')
         } else {
             resultado = i; 
         }

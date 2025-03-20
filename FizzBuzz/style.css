@@ -19,3 +19,15 @@ body {
     background-color: #af4294;
     text-align: center;
 }
+.fizzbuzz{
+    color: #ecf01b;
+    font-weight: bold;
+}
+.fizz{
+    color: aqua;
+    font-weight: bold;
+}
+.buzz{
+    color: #4CAF50;
+    font-weight: bold;
+}
